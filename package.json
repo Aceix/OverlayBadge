@@ -29,6 +29,10 @@
     "notification",
     "tag"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aceix/OverlayBadge.git"
+  },
   "author": "the_aceix",
   "license": "MIT"
 }
