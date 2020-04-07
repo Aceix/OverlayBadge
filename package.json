@@ -1,0 +1,26 @@
+{
+  "name": "@the_aceix/overlay-badge",
+  "version": "1.0.0",
+  "description": "A lightweight standalone badge component for any Vue component",
+  "main": "dist/overlay-badge.umd.js",
+  "module": "dist/overlay-badge.esm.js",
+  "unpkg": "dist/overlay-badge.min.js",
+  "browser": {
+    "./sfc": "src/overlay-badge.vue"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "build": "npm run build:umd & npm run build:es & npm run build:unpkg",
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/overlay-badge.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/overlay-badge.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/overlay-badge.min.js"
+  },
+  "keywords": [
+    "badge",
+    "overlay",
+    "notification",
+    "tag"
+  ],
+  "author": "the_aceix",
+  "license": "MIT"
+}
