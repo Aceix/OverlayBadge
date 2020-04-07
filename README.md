@@ -16,7 +16,7 @@ Contribution
 Project is open to suggestions. To contribute:
  1. Fork the repo
  2. Edit source
- 3. Raise an issus=e, linking to your repo
+ 3. Raise an issue, linking to your repo
 
 License
 ----
