@@ -1,7 +1,7 @@
 <template>
   <div class="OverlayBadge">
     <div class="float" :class="position" :style="styles" @click="onClick ? onClick() : () => {}">
-      <slot name="float">{{ (Number(count) < 1000) ? count : '1k+' }}</slot>
+      <slot name="float">{{ computedCount }}</slot>
     </div>
     <slot>
       <div></div>
@@ -29,6 +29,9 @@ export default {
     }
   },
   computed: {
+    computedCount() {
+      return (Number(this.count) < 1000) ? this.count : '1k+'
+    },
     styles() {
       let style = "";
       switch (this.type) {
