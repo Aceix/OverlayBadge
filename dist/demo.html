@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<title>overlay-badge demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./overlay-badge.umd.js"></script>
+
+<link rel="stylesheet" href="./overlay-badge.css">
+
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: overlay-badge
+  }
+}).$mount('#app')
+</script>
