@@ -2,7 +2,7 @@
   "name": "@the_aceix/overlay-badge",
   "version": "1.0.0",
   "description": "A lightweight standalone badge component for any Vue component",
-  "main": "dist/overlay-badge.umd.js",
+  "main": "dist/overlay-badge.common.js",
   "module": "dist/overlay-badge.esm.js",
   "unpkg": "dist/overlay-badge.min.js",
   "browser": {
@@ -21,6 +21,11 @@
     "@vue/cli-service": "^4.3.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "*.json"
+  ],
   "keywords": [
     "badge",
     "overlay",
