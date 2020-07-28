@@ -1,6 +1,6 @@
 {
   "name": "@the_aceix/overlay-badge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight standalone badge component for any Vue component",
   "main": "dist/overlay-badge.common.js",
   "module": "dist/overlay-badge.esm.js",
