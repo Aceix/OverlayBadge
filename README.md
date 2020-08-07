@@ -1,6 +1,12 @@
 # OverlayBadge
 OverlayBadge is a simple minimal lightweight badge component for Vue.js 2.x
 
+### Install
+
+NPM: `npm install --save @the_aceix/overlay-badge`
+
+Yarn: `yarn add @the_aceix/overlay-badge`
+
 ### Props
  - _type_ (String) - type of badge (conforms to Bootstrap). Possible values are `primary`|`secondary`|`success`|`info`|`warning`|`danger`
  - _count_ (Number | String) - the value to be displayed in badge - default `0`
